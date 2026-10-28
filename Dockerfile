@@ -1,4 +1,4 @@
-FROM wordpress:5.5
+FROM wordpress:7.1.4-php8.2-apache
 
 # PHP Configuration, e.g. max upload size, etc.
 COPY ./uploads.ini /usr/local/etc/php/conf.d/uploads.ini
